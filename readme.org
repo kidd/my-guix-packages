@@ -1,0 +1,11 @@
+* My guix packages
+  That probably don't pass the quality threshold for guix
+** [[./openresty.scm][openresty.scm]]
+** TODO Mozart/Oz
+   By now, using docker:
+*** Docker for Mozart/Oz
+   - docker pull ingi/inginious-c-oz
+   - docker run -t -i 1338ca720c52 bash
+   - oz
+
+** TODO Postgis
