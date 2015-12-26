@@ -23,7 +23,8 @@
    `(("libxslt" ,libxslt)
      ("libxml2" ,libxml2)))
   (home-page "http://xmlstar.sourceforge.net/")
-  (synopsis "XMLStarlet is a set of command line utilities (tools)
+  (synopsis "A command line XML Toolkit")
+  (description "XMLStarlet is a set of command line utilities (tools)
 which can be used to transform, query, validate, and edit XML
 documents and files using simple set of shell commands in similar way
 it is done for plain text files using UNIX grep, sed, awk, diff,
@@ -32,5 +33,4 @@ patch, join, etc commands.
 This set of command line utilities can be used by those who deal
 with many XML documents on UNIX shell command prompt as well as
 for automated XML processing with shell scripts. " )
-  (description #f)
   (license license:bsd-2))
