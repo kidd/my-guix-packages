@@ -1,0 +1,8 @@
+* Create a package
+  - Write it
+  - Put it into a guix checkout (not your running guix)
+  - load the checkout environment with pre-inst-env. If you can't run
+    guix in the host machine, run 'guix environment guix' before
+  - ./bootstrap ; ./configure --localstatedir=/var --prefix=  && make
+  - ./pre-inst-env guix lint my-package
+  - on 'ERROR: missing interface for module (gnutls)'. guix package -i gnutls
